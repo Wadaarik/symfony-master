@@ -15,5 +15,5 @@ jobs:
         uses: symfonycorp/security-checker-action@v2
       - name: PHPStan
         uses: docker://oskarstark/phpstan-ga
-           with:
-             args: analyse src/
+        with:
+            args: analyse src/
